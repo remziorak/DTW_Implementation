@@ -10,7 +10,8 @@ Dynamic Time Warphing (DTW) ,  is one of the algorithms for measuring the minimu
 
 RTL schematics of the top module given as following.
 
-<img src="\.github\images\DTW_schematic.png" style="zoom:60%;" />
+![DTW_schematic](https://user-images.githubusercontent.com/45906647/87863917-c9a4ef00-c969-11ea-9769-e15db6406914.png)
+
 
 
 
