@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../DWT.srcs/sources_1/new/euclidean_distance_3F_32bit.v" \
+"../../../../DWT.srcs/sources_1/new/first_cell_calculator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

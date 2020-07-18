@@ -1,0 +1,503 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jul 18 16:16:40 2020
+# Process ID: 8428
+# Current directory: C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1
+# Command line: vivado.exe -log dtw_8F_32bit_256x256.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dtw_8F_32bit_256x256.tcl
+# Log file: C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/dtw_8F_32bit_256x256.vds
+# Journal file: C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dtw_8F_32bit_256x256.tcl -notrace
+Command: synth_design -top dtw_8F_32bit_256x256 -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7472 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 891.711 ; gain = 182.840
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dtw_8F_32bit_256x256' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/dtw_8F_32bit_256x256.v:4]
+INFO: [Synth 8-6157] synthesizing module 'memory_controller' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/memory_controller.v:4]
+INFO: [Synth 8-6157] synthesizing module 'memory_address_generator' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/memory_address_generator.v:3]
+	Parameter initial_state bound to: 4'b0000 
+	Parameter temp_fill_state bound to: 4'b0001 
+	Parameter test_fill_state bound to: 4'b0010 
+	Parameter calculate_first_cell bound to: 4'b0011 
+	Parameter calculate_first_row bound to: 4'b0100 
+	Parameter calculate_odd_first_cell bound to: 4'b0101 
+	Parameter calculate_odd_row bound to: 4'b0110 
+	Parameter calculate_even_first_cell bound to: 4'b0111 
+	Parameter calculate_even_row bound to: 4'b1000 
+	Parameter final_state bound to: 4'b1001 
+	Parameter clk_max bound to: 4'b1111 
+INFO: [Synth 8-6155] done synthesizing module 'memory_address_generator' (1#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/memory_address_generator.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_en_controller' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/memory_en_controller.v:3]
+	Parameter initial_state bound to: 4'b0000 
+	Parameter temp_fill_state bound to: 4'b0001 
+	Parameter test_fill_state bound to: 4'b0010 
+	Parameter calculate_first_cell bound to: 4'b0011 
+	Parameter calculate_first_row bound to: 4'b0100 
+	Parameter calculate_odd_first_cell bound to: 4'b0101 
+	Parameter calculate_odd_row bound to: 4'b0110 
+	Parameter calculate_even_first_cell bound to: 4'b0111 
+	Parameter calculate_even_row bound to: 4'b1000 
+	Parameter final_state bound to: 4'b1001 
+INFO: [Synth 8-6155] done synthesizing module 'memory_en_controller' (2#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/memory_en_controller.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'memory_controller' (3#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/memory_controller.v:4]
+INFO: [Synth 8-6157] synthesizing module 'temp_test_memory' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/temp_test_memory.v:3]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+	Parameter Sample bound to: 256 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_32x256' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/blk_mem_gen_32x256_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_32x256' (4#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/blk_mem_gen_32x256_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'temp_test_memory' (5#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/temp_test_memory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dtw_matrix_memory' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/dtw_matrix_memory.v:4]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+	Parameter Sample bound to: 256 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_dual_256x16' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/blk_mem_gen_dual_256x16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_dual_256x16' (6#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/blk_mem_gen_dual_256x16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dtw_matrix_memory' (7#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/dtw_matrix_memory.v:4]
+INFO: [Synth 8-6157] synthesizing module 'dtw_value_comp' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/dtw_value_comp.v:4]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'minimum_of_3_vector' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/minimum_of_3_vector.v:1]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'minimum_of_3_vector' (8#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/minimum_of_3_vector.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dtw_value_comp' (9#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/dtw_value_comp.v:4]
+INFO: [Synth 8-6157] synthesizing module 'euclidean_distance_8F_32bit' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/euclidean_distance_8F_32bit.v:5]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 16 - type: integer 
+	Parameter F1_width bound to: 4 - type: integer 
+	Parameter F2_width bound to: 4 - type: integer 
+	Parameter F3_width bound to: 4 - type: integer 
+	Parameter F4_width bound to: 4 - type: integer 
+	Parameter F5_width bound to: 4 - type: integer 
+	Parameter F6_width bound to: 4 - type: integer 
+	Parameter F7_width bound to: 4 - type: integer 
+	Parameter F8_width bound to: 4 - type: integer 
+	Parameter F1_msb_index bound to: 31 - type: integer 
+	Parameter F1_lsb_index bound to: 28 - type: integer 
+	Parameter F2_msb_index bound to: 27 - type: integer 
+	Parameter F2_lsb_index bound to: 24 - type: integer 
+	Parameter F3_msb_index bound to: 23 - type: integer 
+	Parameter F3_lsb_index bound to: 20 - type: integer 
+	Parameter F4_msb_index bound to: 19 - type: integer 
+	Parameter F4_lsb_index bound to: 16 - type: integer 
+	Parameter F5_msb_index bound to: 15 - type: integer 
+	Parameter F5_lsb_index bound to: 12 - type: integer 
+	Parameter F6_msb_index bound to: 11 - type: integer 
+	Parameter F6_lsb_index bound to: 8 - type: integer 
+	Parameter F7_msb_index bound to: 7 - type: integer 
+	Parameter F7_lsb_index bound to: 4 - type: integer 
+	Parameter F8_msb_index bound to: 3 - type: integer 
+	Parameter F8_lsb_index bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'cordic_0' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/cordic_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cordic_0' (10#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/cordic_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'xbip_dsp48_macro_0' [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/xbip_dsp48_macro_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xbip_dsp48_macro_0' (11#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/.Xil/Vivado-8428-DESKTOP-DT3LPHO/realtime/xbip_dsp48_macro_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'euclidean_distance_8F_32bit' (12#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/euclidean_distance_8F_32bit.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dtw_8F_32bit_256x256' (13#1) [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/new/dtw_8F_32bit_256x256.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 957.707 ; gain = 248.836
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 957.707 ; gain = 248.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 957.707 ; gain = 248.836
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/cordic_0/cordic_0/cordic_0_in_context.xdc] for cell 'euclidean_distance_inst/inst1'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/cordic_0/cordic_0/cordic_0_in_context.xdc] for cell 'euclidean_distance_inst/inst1'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_32x256/blk_mem_gen_32x256/blk_mem_gen_32x256_in_context.xdc] for cell 'temp_test_memory_inst/template_inst'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_32x256/blk_mem_gen_32x256/blk_mem_gen_32x256_in_context.xdc] for cell 'temp_test_memory_inst/template_inst'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_32x256/blk_mem_gen_32x256/blk_mem_gen_32x256_in_context.xdc] for cell 'temp_test_memory_inst/test_inst'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_32x256/blk_mem_gen_32x256/blk_mem_gen_32x256_in_context.xdc] for cell 'temp_test_memory_inst/test_inst'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16_in_context.xdc] for cell 'dtw_matrix_memory_inst/odd_rows'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16_in_context.xdc] for cell 'dtw_matrix_memory_inst/odd_rows'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16_in_context.xdc] for cell 'dtw_matrix_memory_inst/even_rows'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16/blk_mem_gen_dual_256x16_in_context.xdc] for cell 'dtw_matrix_memory_inst/even_rows'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst1'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst1'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst2'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst2'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst3'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst3'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst4'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst4'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst5'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst5'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst6'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst6'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst7'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst7'
+Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst8'
+Finished Parsing XDC File [c:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/sources_1/ip/xbip_dsp48_macro_0/xbip_dsp48_macro_0/xbip_dsp48_macro_0_in_context.xdc] for cell 'euclidean_distance_inst/dsp_inst8'
+Parsing XDC File [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/constrs_1/new/constraints_1.xdc]
+Finished Parsing XDC File [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.srcs/constrs_1/new/constraints_1.xdc]
+Parsing XDC File [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1080.016 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1080.016 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1080.016 ; gain = 371.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1080.016 ; gain = 371.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/inst1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for temp_test_memory_inst/template_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for temp_test_memory_inst/test_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dtw_matrix_memory_inst/even_rows. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for dtw_matrix_memory_inst/odd_rows. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for euclidean_distance_inst/dsp_inst8. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1080.016 ; gain = 371.145
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'y_reg' in module 'memory_address_generator'
+INFO: [Synth 8-5544] ROM "state4_column_counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "even_addrb" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           initial_state |                             0000 |                             0000
+         temp_fill_state |                             0001 |                             0001
+         test_fill_state |                             0010 |                             0010
+    calculate_first_cell |                             0011 |                             0011
+     calculate_first_row |                             0100 |                             0100
+calculate_odd_first_cell |                             0101 |                             0101
+       calculate_odd_row |                             0110 |                             0110
+calculate_even_first_cell |                             0111 |                             0111
+      calculate_even_row |                             1000 |                             1000
+             final_state |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'y_reg' using encoding 'sequential' in module 'memory_address_generator'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1080.016 ; gain = 371.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   4 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 4     
+	   2 Input      9 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 5     
+	   3 Input      5 Bit       Adders := 8     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 8     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   7 Input     32 Bit        Muxes := 1     
+	  10 Input     32 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 2     
+	  10 Input      9 Bit        Muxes := 4     
+	  10 Input      8 Bit        Muxes := 8     
+	  10 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 13    
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  10 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dtw_8F_32bit_256x256 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module memory_address_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 5     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 8     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 2     
+	  10 Input      9 Bit        Muxes := 4     
+	  10 Input      8 Bit        Muxes := 8     
+	  10 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 13    
+	   2 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 3     
+Module memory_en_controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	  10 Input      1 Bit        Muxes := 4     
+Module minimum_of_3_vector 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module dtw_value_comp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 4     
++---Muxes : 
+	   7 Input     32 Bit        Muxes := 1     
+	  10 Input     32 Bit        Muxes := 3     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+Module euclidean_distance_8F_32bit 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 4     
+	   3 Input      5 Bit       Adders := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1080.016 ; gain = 371.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1080.016 ; gain = 371.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1095.469 ; gain = 386.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1098.762 ; gain = 389.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------+----------+
+|      |BlackBox name           |Instances |
++------+------------------------+----------+
+|1     |blk_mem_gen_dual_256x16 |         2|
+|2     |cordic_0                |         1|
+|3     |xbip_dsp48_macro_0      |         8|
+|4     |blk_mem_gen_32x256      |         2|
++------+------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------+------+
+|      |Cell                       |Count |
++------+---------------------------+------+
+|1     |blk_mem_gen_32x256         |     1|
+|2     |blk_mem_gen_32x256__2      |     1|
+|3     |blk_mem_gen_dual_256x16    |     1|
+|4     |blk_mem_gen_dual_256x16__2 |     1|
+|5     |cordic_0                   |     1|
+|6     |xbip_dsp48_macro_0         |     1|
+|7     |xbip_dsp48_macro_0__10     |     1|
+|8     |xbip_dsp48_macro_0__11     |     1|
+|9     |xbip_dsp48_macro_0__12     |     1|
+|10    |xbip_dsp48_macro_0__13     |     1|
+|11    |xbip_dsp48_macro_0__14     |     1|
+|12    |xbip_dsp48_macro_0__8      |     1|
+|13    |xbip_dsp48_macro_0__9      |     1|
+|14    |BUFG                       |     1|
+|15    |CARRY4                     |    59|
+|16    |LUT1                       |     1|
+|17    |LUT2                       |   122|
+|18    |LUT3                       |    37|
+|19    |LUT4                       |   152|
+|20    |LUT5                       |    87|
+|21    |LUT6                       |   366|
+|22    |FDRE                       |   236|
+|23    |IBUF                       |    67|
+|24    |OBUF                       |    33|
++------+---------------------------+------+
+
+Report Instance Areas: 
++------+----------------------------------+----------------------------+------+
+|      |Instance                          |Module                      |Cells |
++------+----------------------------------+----------------------------+------+
+|1     |top                               |                            |  1450|
+|2     |  memory_controller_inst          |memory_controller           |   365|
+|3     |    memory_address_generator_inst |memory_address_generator    |   365|
+|4     |  dtw_matrix_memory_inst          |dtw_matrix_memory           |   268|
+|5     |  dtw_value_comp_inst             |dtw_value_comp              |   389|
+|6     |    minimum_of_3_vector_inst      |minimum_of_3_vector         |    12|
+|7     |  euclidean_distance_inst         |euclidean_distance_8F_32bit |   214|
+|8     |  temp_test_memory_inst           |temp_test_memory            |   112|
++------+----------------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 1104.551 ; gain = 273.371
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1104.551 ; gain = 395.680
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 59 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1105.852 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 1105.852 ; gain = 663.313
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1105.852 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/REV/VivadoProjects/DTW_8F_32bit_256x256/DTW.runs/synth_1/dtw_8F_32bit_256x256.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dtw_8F_32bit_256x256_utilization_synth.rpt -pb dtw_8F_32bit_256x256_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 18 16:17:49 2020...

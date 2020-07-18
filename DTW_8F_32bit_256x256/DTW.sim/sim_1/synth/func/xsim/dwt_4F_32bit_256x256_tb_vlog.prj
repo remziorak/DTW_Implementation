@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"dwt_4F_32bit_256x256_tb_func_synth.v" \
+"../../../../../DWT.srcs/sim_1/new/dwt_4F_32bit_256x256_tb.v" \
+
+# Do not sort compile order
+nosort

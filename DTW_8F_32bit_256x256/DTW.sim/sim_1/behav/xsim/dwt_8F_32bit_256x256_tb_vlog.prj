@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../DWT.srcs/sources_1/ip/blk_mem_gen_32x256/sim/blk_mem_gen_32x256.v" \
+"../../../../DWT.srcs/sources_1/ip/blk_mem_gen_dual_256x16/sim/blk_mem_gen_dual_256x16.v" \
+"../../../../DWT.srcs/sources_1/new/dwt_matrix_memory.v" \
+"../../../../DWT.srcs/sources_1/new/minimum_of_3_vector.v" \
+"../../../../DWT.srcs/sources_1/new/temp_test_memory.v" \
+"../../../../DWT.srcs/sources_1/new/memory_address_generator.v" \
+"../../../../DWT.srcs/sources_1/new/dtw_value_comp.v" \
+"../../../../DWT.srcs/sources_1/new/memory_en_controller.v" \
+"../../../../DWT.srcs/sources_1/new/memory_controller.v" \
+"../../../../DWT.srcs/sources_1/new/euclidean_distance_8F_32bit.v" \
+"../../../../DWT.srcs/sources_1/new/dwt_8F_32bit_256x256.v" \
+"../../../../DWT.srcs/sim_1/new/dwt_8F_32bit_256x256_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

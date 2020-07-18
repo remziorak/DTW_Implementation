@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/ip/blk_mem_gen_32x256/sim/blk_mem_gen_32x256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_32x256
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/ip/blk_mem_gen_dual_256x16/sim/blk_mem_gen_dual_256x16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_dual_256x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/dwt_matrix_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dwt_matrix_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/minimum_of_3_vector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module minimum_of_3_vector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/temp_test_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module temp_test_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/memory_address_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_address_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/dtw_value_comp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dtw_value_comp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/memory_en_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_en_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/memory_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/euclidean_distance_8F_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module euclidean_distance_8F_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/new/dwt_8F_32bit_256x256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dwt_8F_32bit_256x256
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sim_1/new/dwt_8F_32bit_256x256_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dwt_8F_32bit_256x256_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

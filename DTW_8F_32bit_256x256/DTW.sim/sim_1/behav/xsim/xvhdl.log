@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/ip/xbip_dsp48_macro_0/sim/xbip_dsp48_macro_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_macro_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cordic_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/REV/VivadoProjects/DWT_8F_32bit_256x256_Signature_Dataset/DWT.srcs/sources_1/ip/cordic_0/demo_tb/tb_cordic_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_cordic_0'
