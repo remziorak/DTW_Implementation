@@ -13,5 +13,9 @@ RTL schematics of the top module given as following.
 ![DTW_schematic](https://user-images.githubusercontent.com/45906647/87863917-c9a4ef00-c969-11ea-9769-e15db6406914.png)
 
 
+Zybo Z7-20 ARM/FPGA SoC used as a development board and resource utilization tables for all *DTW* modules are given as following.
+
+
+![image](https://user-images.githubusercontent.com/45906647/87864780-8781aa80-c975-11ea-99ca-f4dd07d6150f.png)
 
 
