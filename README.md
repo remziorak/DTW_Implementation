@@ -1,4 +1,4 @@
-# Online Signature Verification and DTW Algorithm
+# Dynamic Time Warphing
 
 Dynamic Time Warphing (DTW) ,  is one of the algorithms for measuring the minimum cost distance between two time series data.  In this project, three different version of DTW algorithm implemented on FPGA. 
 
